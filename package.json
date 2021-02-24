@@ -1,12 +1,11 @@
 {
-  "name": "blog_app",
+  "name": "emailTemplate_app",
   "version": "1.0.0",
-  "description": "first blog app",
-  "main": "index.js",
+  "description": "first emailTemplate app",
+  "main": "app.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "3.x",
-    "hbs": "*",
-    "moment": "^2.10.3",
-    "mongoose-promised": "*"
+    "nodemailer": "^6.4.18"
   }
 }
